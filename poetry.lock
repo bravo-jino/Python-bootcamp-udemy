@@ -1,0 +1,37 @@
+[[package]]
+name = "python-dummy"
+version = "0.1.0"
+description = "Dummy package generator."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+PyYAML = "*"
+simplejson = "*"
+
+[[package]]
+name = "pyyaml"
+version = "6.0"
+description = "YAML parser and emitter for Python"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "simplejson"
+version = "3.18.0"
+description = "Simple, fast, extensible JSON encoder/decoder for Python"
+category = "main"
+optional = false
+python-versions = ">=2.5, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "da73f98f9593eaab2e7ec08536d1bfe6b96e070fa590a95d525b690bee54fe61"
+
+[metadata.files]
+python-dummy = []
+pyyaml = []
+simplejson = []
